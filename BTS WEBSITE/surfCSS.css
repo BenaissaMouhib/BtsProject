@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    Background-image: url(S4.jpg);
+    background-size: cover;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+ul{
+    display: flex;
+    padding: 20px;
+    margin-right: 10px;
+}
+li{
+    margin: 20px;
+}
+h2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(13, 101, 184);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 50%;
+  
+    
+}
+.contact{
+    background-color:  #77b5fe;
+}
+p{
+    color: black;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #77b5fe;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #77b5fe;
+}
+.btnn a{
+    text-decoration: none;
+    color: #14efd2 ;
+    font-weight: bold;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    
+}
+.card {
+    background-color: #1469ca;
+    width: 8em;
+    box-shadow: 7px 7px 7px 7px rgb(54, 123, 252);
+    border-radius: 7px;
+    padding: 20px;
+    margin: 10px;
+    transition: 0.5s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+}
+img{
+  width:50% ;
+}
+.card:hover {
+    transform: scale(1.1);
+    justify-content: center;
+    align-items: center;
+    
+    display: grid;
+}
+
+
+.card{
+    margin-top: 20px;
+}
+
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.prix{
+    background-color: rgb(49, 167, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+header {
+    background-color: rgb(15, 104, 238);
+    color: #fff;
+    padding: 7px;
+  }
+  img {
+    width: 120px;
+    height: auto;
+    border: 1px solid #ccc;
+  }
